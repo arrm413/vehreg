@@ -85,7 +85,7 @@
 
 		// Build SQL query to insert new expense data into SQL database
 		$tsql=
-		"INSERT INTO Expenses (	
+		"INSERT INTO VehicleReg (	
 				v_make,
 				v_model,
 				v_year,
