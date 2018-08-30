@@ -69,7 +69,7 @@ The PHP script insertToDb.php will be executed after the user clicks "Submit"-->
 		<input type="text" name="vehicle_year" >
 		
 		<label>Start Date:</label>
-		<input type="text" name="start_dt" >
+		<input type="text" name="start_dt" ><br>
 
 		<label>End Date:</label>
 		<input type="dtext" name="end_dt" >
