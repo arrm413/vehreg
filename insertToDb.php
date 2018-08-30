@@ -28,8 +28,8 @@
 	$v_make= parse_input($_POST['v_make']);
 	$v_model= parse_input($_POST['v_model']);
 	$v_year= parse_input($_POST['v_year']);
-	$start_dt= (date) parse_input($_POST['start_dt']);
-	$end_dt= (date) parse_input($_POST['end_dt']);
+	$start_dt= parse_input($_POST['start_dt']);
+	$end_dt= parse_input($_POST['end_dt']);
 	$name= parse_input($_POST['name']);
 
 	// Get the authentication claims stored in the Token Store after user logins using Azure Active Directory
