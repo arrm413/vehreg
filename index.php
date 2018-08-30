@@ -69,15 +69,10 @@ The PHP script insertToDb.php will be executed after the user clicks "Submit"-->
 		<input type="text" name="vehicle_year" >
 		
 		<label>Start Date:</label>
-		<input type="date" id="start" name="startdate"
-               			value="2018-08-30"
-              			min="2018-08-30" max="2199-12-31" />
+		<input type="text" name="start_dt" >
 
 		<label>End Date:</label>
-		<input type="date" id="start" name="enddate"
-               			value="2018-08-30"
-              			min="2018-08-30" max="2199-12-31" />
-		<br><br>
+		<input type="dtext" name="end_dt" >
 
 		<label>Employee Name:</label>
 		<input type="text" name="employee_name" >
