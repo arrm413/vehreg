@@ -99,7 +99,7 @@
 				'" . $v_year . "', 
 				'" . $start_dt . "', 
 				'" . $end_dt . "',
-				'" . $name . "',)";
+				'" . $name . "')";
 
 		// Run query
 		$sqlQueryStatus= sqlsrv_query($conn, $tsql);
